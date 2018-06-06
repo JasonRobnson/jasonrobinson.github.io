@@ -19,7 +19,7 @@
                     </div>
                     
                         <div class="col-md-3 text-center">
-                                <!-- <h1>Jason Robinson</h1> -->
+                                <h1>Jason Robinson</h1>
                         </div>
                         <div class="col-md-3">
                                
@@ -52,13 +52,18 @@
                     <div class="col-md-6 col-xs-12 white">
                     
                             
-                                <div class="form-group text-center">
-                                     <h2><label for="inputName">Jason Robinson</label></h2>
-                                     <h2><label for="inputEmail">Email: jasonrobinson.dev@gmail.com</label></h2>
-                                     <h2><label for="inputMessage">Phone: (313)-919-3932</label></h2>
-                                     <br>
-                                </div>
-                              
+        
+                               <form action="mailto:jrobinson.dev@gmail.com" method="post" enctype="text/plain">
+                                <h5>Name:</h5>
+                                <input type="text" name="name"><br>
+                                 <h5>E-mail:</h5> 
+                                <input type="text" name="mail"><br>
+                                <h5>Comment:</h5>
+                                <input type="text" name="comment" size="75"><br><br>
+                                <input type="submit" value="Send">
+                                <input type="reset" value="Reset">
+                                </form>
+                                
                             
                         
                         </div>

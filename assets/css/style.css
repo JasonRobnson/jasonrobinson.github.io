@@ -9,7 +9,7 @@ body{
 .white{
     background-color: white;
 }
-a,h1,h2,h3{
+a,h1,h2,h3,h4{
     color: teal;
     font-family: 'Roboto', sans-serif;
 }

@@ -9,11 +9,7 @@ body{
 .white{
     background-color: white;
 }
-.portfolioAtag{
-    color: teal;
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-}
+
 a,h1,h2,h3,h4{
     color: teal;
     font-family: 'Roboto', sans-serif;

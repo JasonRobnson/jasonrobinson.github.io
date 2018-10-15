@@ -1,36 +1,63 @@
+/* #f13c20 */
 
-
-
-
-body{
-    background-image: url(../assets/doodles.png);
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url(../Images/doodles.png);
 }
 
-.red{
-    background-color: red;
+main {
+  flex: 1 0 auto;
 }
 
-.white{
-    background-color: white;  
-}
-.boxShadow {
-    box-shadow: .02em .02em 1.5em .1em;
-}
-a,h1,h2,h3,h4{
-    color: teal;
-    font-family: 'Fontdiner Swanky', cursive;
+nav > div > div > h2 {
+  margin: 0em;
+  /* position: fixed; */
 }
 
-p{
-    font-family: 'David Libre', serif;
-    line-height: 1.25;
-    text-indent: .3em;
-    font-size: 1.5em;
+nav,
+footer {
+  background-color: #4056a1;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #d79922;
+  font-family: 'Fontdiner Swanky', cursive;
+  text-shadow: 0.05em 0.05em #c5cbe3;
 }
 
-
-    p > a {
-        color: teal;
-        font-family: 'David Libre', serif;
-        font-size: .75em;
-    }
+p {
+  font-family: 'David Libre', serif;
+  line-height: 1.25;
+  text-indent: 0.3em;
+  font-size: 1.5em;
+}
+.white {
+  background-color: white;
+}
+@media only screen and (max-width: 1024px) {
+  nav h2 {
+    font-size: 40px;
+  }
+  h5 {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 775px) {
+  nav h2 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  nav h2 {
+    font-size: 36px;
+  }
+}

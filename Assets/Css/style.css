@@ -12,7 +12,6 @@ main {
 
 nav > div > div > h2 {
   margin: 0em;
-  /* position: fixed; */
 }
 
 nav,
@@ -39,7 +38,7 @@ p {
 .white {
   background-color: white;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1324px) {
   nav h2 {
     font-size: 40px;
   }
@@ -47,7 +46,7 @@ p {
     font-size: 17px;
   }
 }
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 820px) {
   nav h2 {
     font-size: 30px;
   }
@@ -55,8 +54,21 @@ p {
     font-size: 11px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
+  nav h2 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 610px) {
   nav h2 {
     font-size: 36px;
+  }
+}
+@media only screen and (max-width: 610px) {
+  nav h2 {
+    font-size: 30px;
   }
 }

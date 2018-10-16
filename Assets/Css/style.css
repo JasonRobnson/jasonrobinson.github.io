@@ -33,10 +33,14 @@ p {
   font-family: 'David Libre', serif;
   line-height: 1.25;
   text-indent: 0.3em;
-  font-size: 1.5em;
+  font-size: 01.5em;
 }
-.white {
-  background-color: white;
+.maxHeight {
+  height: 300px;
+  overflow: auto;
+}
+.portfolioImage {
+  height: 200px;
 }
 @media only screen and (max-width: 1324px) {
   nav h2 {
@@ -44,6 +48,13 @@ p {
   }
   h5 {
     font-size: 17px;
+  }
+  .maxHeight {
+    height: auto;
+    overflow: auto;
+  }
+  .portfolioImage {
+    height: 200px;
   }
 }
 @media only screen and (max-width: 820px) {
@@ -53,6 +64,13 @@ p {
   h5 {
     font-size: 11px;
   }
+  .maxHeight {
+    height: auto;
+    overflow: auto;
+  }
+  .portfolioImage {
+    height: 200px;
+  }
 }
 @media only screen and (max-width: 650px) {
   nav h2 {
@@ -61,14 +79,23 @@ p {
   h5 {
     font-size: 11px;
   }
-}
-@media only screen and (max-width: 610px) {
-  nav h2 {
-    font-size: 36px;
+  .maxHeight {
+    height: auto;
+    overflow: auto;
+  }
+  .portfolioImage {
+    height: 200px;
   }
 }
 @media only screen and (max-width: 610px) {
   nav h2 {
     font-size: 30px;
+  }
+  .maxHeight {
+    height: auto;
+    overflow: auto;
+  }
+  .portfolioImage {
+    height: 200px;
   }
 }

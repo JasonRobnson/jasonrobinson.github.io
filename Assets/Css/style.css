@@ -25,8 +25,9 @@ h3,
 h4,
 h5 {
   color: #d79922;
-  font-family: 'Fontdiner Swanky', cursive;
-  text-shadow: 0.05em 0.05em #c5cbe3;
+  /* font-family: 'Fontdiner Swanky', cursive; */
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0.05em 0.002em #c5cbe3;
 }
 
 p {
